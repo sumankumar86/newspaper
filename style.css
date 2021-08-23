@@ -1,0 +1,207 @@
+body{
+    padding:0;
+    margin:0;
+}
+header{
+    background:black;
+    color: white;
+}
+.website-header{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.website-header img{
+    width: 50px;
+    height: 50px;
+    margin: 0 30px;
+}
+.website-header h1{
+    margin:auto 0;
+}
+.social-icons{
+    text-align: right;
+    flex-grow: 1;
+    
+}
+.social-icons i{
+    margin: 7px;
+    cursor: pointer;
+}
+nav{
+    background: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.navbar-nav li {
+    padding: 10px 20px;
+}
+.navbar-nav li a{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+.navbar-nav li a:hover{
+    color:#e08b6c;
+
+
+}
+.breaking-news-section{
+    padding: 0 30px 0 60px;
+    display:flex;
+    height: 30px;
+}
+#btext{
+    width: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:rgb(238, 55, 55);
+    font-weight: 600;
+    margin:auto 0;
+}
+.breaking-news{
+    padding: 0 30px;
+    color:rgb(224, 45, 45);
+    font-weight: 800;
+    display: inline-block;
+}
+.bntime{
+    display:inline-block;
+    color:rgba(red, green, blue, alpha)
+
+}
+#popular-news{
+    display: flex;
+    margin:30px 5%;
+}
+#popular-news img{
+    width:100%;
+    filter: brightness(0.7);
+    }
+    #popular-news h2{
+        margin:0;
+        padding:5px;
+        color:#fff;
+
+    }    
+    #featured h2{
+        background-color: black;
+    }
+    
+    #latest h2{
+        background-color: darkred;
+
+    }
+    #our-picks h2{
+        background-color: darkblue;
+    }
+    .carousel,.news-container{
+        position: relative;
+    }
+    .popular-news-text{
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        position: absolute;
+        color: #fff;
+        z-index: 2;
+        bottom:5px;
+        font-size: 24px;
+        font-weight: bolder;
+        padding: 0 10px;
+    }
+    #featured{
+        felx: 1;
+    }
+    #latest,#our-picks{
+        flex:1;
+    }
+    .news-section{
+        display:flex;
+        flex-basis: 70%;
+        justify-content: space-between;
+    }
+    .more-news{
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        color:#fff;
+        flex-wrap: wrap;
+	padding: 0 5%;
+    }
+    .more-news img{
+        width:100%;
+        height: 250px;
+    }
+    aside{
+        width: 90%;
+	padding: 10px;
+	flex-basis: 25%;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	margin: auto 0;
+    }
+    .world h2{	
+        background-color: #b2175b;
+        padding: 0 10px;
+        margin: 10px 0 0 0;
+    }
+    .sports h2{
+        background-color: #3c1b75;
+        padding: 0 10px;
+        margin: 10px 0 0 0;
+    }
+    
+    p{
+        text-align: justify;
+    }
+    .recent-news{
+        display: flex;
+    }
+    .recent-news img{
+        width: 70px;
+        height: 70px; 
+        margin: 10px;
+    }
+    .recent-news p{
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+        padding: auto;
+    }
+    .gmit1{
+        height: 500px;
+    }
+    .gmit2{
+        height: 500px;;
+    }
+    .news-container img{
+        height: 250px;
+    }
+    .world,.sports{
+        flex-basis: 45%;
+    }
+    .breaking-news:hover,.social-icons i:hover{
+        color:#e08b6c;
+        cursor: pointer;
+    }
+    .news-container:hover > .popular-news-text{
+        bottom: 10px;
+    }
+    .news-container:hover > img{
+        filter: brightness(0.4);
+    }
+    .blinking{
+        animation:blinkingText 0.8s infinite;
+    }
+    @keyframes blinkingText{
+        0%{		color: rgb(221, 39, 39);	}
+        49%{	color: transparent;	}
+       
+        100%{	color: rgb(202, 40, 40);	}
+    }
+    #recent-text{
+        font-family:cursive;
+        background-color: #c84515;
+        text-align: center;
+    }

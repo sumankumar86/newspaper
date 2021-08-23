@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>News</title>
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+
+        <div class="website-header">
+            <img src="images/123.png" alt="logo">
+            <h1 style="font-family: cursive; color:rgb(74, 202, 202)">NEWS CORNER</h1>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-rss"></i>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md ">
+
+
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                   
+
+                </ul>
+            </div>
+        </nav>
+        <div class="breaking-news-section">
+            <span id="btext" class="blinking">Breaking News</span>
+            <marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                <a href="#" class="breaking-news">
+                    <p class="bntime">08 Aug 2021 &nbsp;</p>GMIT has celebrated its glorious 10years of success
+                </a>
+                <a href="#" class="breaking-news">
+                    <p class="bntime">21 Aug 2021 &nbsp;</p>GMIT has celebrated World Entrepreneurs' Day
+                </a>
+                <a href="#" class="breaking-news">
+                    <p class="bntime">29 July 2021 &nbsp;</p>GMIT organizes a free mass Vaccination Drive
+                </a>
+            </marquee>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </header>
+    <main>
+        <article id="popular-news">
+            <div id="featured">
+                <h2>FEATURED</h2>
+                <section class="popular-news-carousel">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="gmit1" src="images/gmit1.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 style="font-family: Georgia, 'Times New Roman', Times, serif;">We Love GMIT</h5>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <img class="gmit2" src="images/gmit2.jpg">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 style="font-family: cursive;">Carrer Devlopment Cell </h5>
+                                    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="gmit2" src="images/gmit4.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> Laboratory Facilities </h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+            <div id="latest">
+                <h2>LATEST</h2>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="images/gmit5.jpg">
+                        <p class="popular-news-text">10th Year Celebration.</p>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="images/gmit6.jpg">
+                        <p class="popular-news-text">Repurposed Boeing</p>
+                    </div>
+                </section>
+            </div>
+            <div id="our-picks">
+                <h2>OUR PICKS</h2>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="images/gmit7.jpeg">
+                        <p class="popular-news-text">Proud Moment For GMIT</p>
+                    </div>
+                </section>
+                <section class="news">
+                    <div class="news-container">
+                        <img src="images/gmit8.jpg">
+                        <p class="popular-news-text">Campus Life</p>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <section class="more-news">
+            <div class="news-section">
+                <articel class="world">
+                    <h2 style="font-family: cursive; text-align: center;">10 Years of Milestones</h2>
+                    <img src="images/gmit5.jpg">
+                    <h3>10 Years Celebration</h3>
+                    <p>On 8th August,2021 GMIT has celebrated its glorious 10years of success.On this wonderful occasion many prestigious media houses including CN News covered the news of the gracious presence of our Honorble speaker of West Bengal, Mr. Biman Banerjee and many more respected guests were presented in GMIT.</p>
+                </articel>
+                <articel class="sports">
+                    <h2 style="font-family: cursive; text-align: center; height:auto;">Awarness Programme</h2>
+                    <img src="images/gmit13.jpg">
+                    <h3>Free Vaccination</h3>
+                    <p>Let's all unite and fight Covid together! Gargi Memorial Institute Of Technology organizes a free mass Vaccination Drive on 29th July, 2021, Thursday at GMIT Campus for all of you.If you haven't got your dose yet, come & get vaccinated with us.</p>
+                </articel>
+            </div>
+            <aside>
+                <h4 id="recent-text">RECENT</h4>
+                <div class="recent-news">
+                    <img src="images/gmit9.jpg">
+                    <p>19th August,2021 World Photography Day</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/gmit10.jpg">
+                    <p>21st August ,2021 World Entrepreneurs' Day</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/gmit11.jpg">
+                    <p>15th August,2021 Independence Day </p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/gmit12.jpg">
+                    <p>2021 Felicitation and Farewell Programme</p>
+                </div>
+                <div class="recent-news">
+                    <img src="images/gmit13.jpg">
+                    <p>2021 Free Mass Vaccination Drive</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+</body>
+
+</html>
